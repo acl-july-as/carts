@@ -38,7 +38,7 @@ public class HealthCheckController {
        } catch (Exception e) {
           database.setStatus("err");
        }
-       
+       //change
 
        healthChecks.add(app);
        healthChecks.add(database);
